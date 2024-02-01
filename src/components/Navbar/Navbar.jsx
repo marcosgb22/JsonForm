@@ -11,11 +11,8 @@ import "./navbar.css"
 function NavBar() {
   return (
     <>
-    <img src="https://i.ibb.co/PDFv7Xd/un-feliz-vikingo.png" alt="Logo" className="logo-img" />
     <Navbar expand="lg" className="body-tertiary" bg="dark" variant={"dark"}>
       <Container>
-
-        <Navbar.Brand as={Link} to="/" className="logo" >Öl Beer</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -25,7 +22,6 @@ function NavBar() {
           </Nav>
         </Navbar.Collapse>
       </Container>
-      <CartWidget/>
     </Navbar>
     </>
   );

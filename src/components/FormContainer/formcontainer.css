@@ -1,0 +1,12 @@
+
+.contenedor {
+  width: 800px; /* Ancho del contenedor */
+  margin: 0 auto; /* Margen automático */
+}
+
+.mensaje {
+  height: 100px;
+  width: 800px; /* Ancho del contenedor */
+  margin: 50px auto; /* Margen automático */
+  font-size: xx-large;
+}
