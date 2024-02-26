@@ -16,9 +16,9 @@ function NavBar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-          <Nav.Link as={Link} to="/IPA">IPA</Nav.Link>
-          <Nav.Link as={Link} to="/Negra">Negra</Nav.Link>
-          <Nav.Link as={Link} to="/Blonde">Blonde</Nav.Link>
+          <Nav.Link as={Link} to="/Persona">Persona</Nav.Link>
+          <Nav.Link as={Link} to="/Texto">Texto</Nav.Link>
+          <Nav.Link as={Link} to="/Datos">Datos</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

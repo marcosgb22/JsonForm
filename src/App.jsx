@@ -27,7 +27,10 @@ function App() {
         <CartProvider> 
         <NavBar/>
         <Routes>
-          <Route path='/' element={<FormContainer/>}/>
+          <Route path='/:tFormulario' element={<FormContainer/>}/>
+          <Route path='/IPA' element={<FormContainer/>}/>
+          <Route path='/Negra' element={<FormContainer/>}/>
+          <Route path='/Blonde' element={<FormContainer/>}/>
           <Route path='/:categoryId' element={<ItemListContainer/>}/>
           <Route path='/item/:idProduct' element={<ItemContainerDetail/>}/>
           <Route path='/IPA/item/:idProduct' element={<ItemContainerDetail/>}/>
